@@ -12,7 +12,7 @@ int input_side()
 int check_scalene(int a,int b,int c)
 {   
     int isscalene;
-    if(a==b||b==c||c==a)
+    if(a!=b&&b!=c&&c!=a)
     {
        isscalene=1;
     }else
